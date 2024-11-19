@@ -1,0 +1,31 @@
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    background-color: #f9f9f9;
+}
+
+.image-gallery-item {
+    text-align: center;
+    overflow: hidden;/*圖片不會破匡*/
+    border-radius: 10px;
+}
+
+.image-gallery-item img:hover {
+    transform: scale(1.05); /* 滑鼠懸停時微微放大 */
+}
+
+.image-gallery-item img {
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.image-gallery-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}

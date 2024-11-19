@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    justify-content:space-between
+}
+
+
+
+.footer-left {
+    max-width: 50%;
+}
+
+.footer-left h3 {
+    margin: 0 0 10px;
+    font-size: 1.5rem;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.footer-right {
+    max-width: 50%;
+    max-height: 100px;
+}
+
+.footer-img {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.footer-img:hover {
+    transform: scale(1.1); /* 滑鼠懸停時稍微放大圖片 */
+}

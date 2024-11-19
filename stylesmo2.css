@@ -1,0 +1,53 @@
+.section-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.text-content{
+    flex: -1;
+    padding-right: 20px;
+    max-width: 500px;
+}
+
+.text-content h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.text-content p{
+    font-size: 1.2rem;
+    line-height: 1.6;/*行距*/
+    margin-bottom: 20px;
+}
+.text-content a{
+    color: black;
+}
+
+.learn-more-button{
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;/*修改框框邊攪屎崎圓滑*/
+    transition: background-color 0.3s;
+    border: 2px solid black;
+}
+.learn-more-button:hover {
+    background-color: #83457e;
+}
+.image-content {
+    flex: 1;
+    text-align: center;/*水平對齊方式*/
+    max-width: 500px;
+}
+
+.image-content img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
